@@ -1,0 +1,46 @@
+body,
+h1,
+p,
+ul,
+li,
+img,
+span{
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card {
+    display: inline-block;
+    padding: 8px 10px;
+    border-radius: 3px;
+}
+
+.style1 {
+    background-color: #159588;
+    color: white;
+}
+
+.style2 {
+    background-color: #ffe94e;
+    color: black;
+}
+
+.style3 {
+    background-color: #fd9727;
+    color: black;
+}
+
+.style4 {
+    background-color: #f2453e;
+    color: white;
+}
+
+.style5 {
+    background-color: #50ad55;
+    color: white;
+}
