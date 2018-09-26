@@ -1,0 +1,64 @@
+body,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.content>div {
+    margin-top: 30px;
+}
+
+.block1 {
+    border-top: 50px solid blue;
+    border-right: 50px solid yellow;
+    border-bottom: 50px solid green;
+    border-left: 50px solid red;
+}
+
+.block2 {
+    border-top: 50px solid blue;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid transparent;
+}
+
+.block3 {
+    border-top: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid red;
+}
+
+.block4 {
+    border-top: 50px solid transparent;
+    border-right: 50px solid yellow;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid transparent;
+}
+
+.block5 {
+    border-top: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid green;
+    border-left: 50px solid transparent;
+}
+
+.block6 {
+    border-top: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid red;
+    border-left: 50px solid red;
+}
+
+.block7 {
+    border-top: 50px solid transparent;
+    border-right: 50px solid green;
+    border-bottom: 50px solid green;
+    border-left: 50px solid transparent;
+    margin-bottom: 30px;
+}
