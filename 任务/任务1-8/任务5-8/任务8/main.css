@@ -1,3 +1,33 @@
+@font-face {
+    font-family: 'iconfont';
+    /* project id 883129 */
+    src: url('https://at.alicdn.com/t/font_883129_6f68qxr5td.eot');
+    src: url('https://at.alicdn.com/t/font_883129_6f68qxr5td.eot?#iefix') format('embedded-opentype'),
+        url('https://at.alicdn.com/t/font_883129_6f68qxr5td.woff') format('woff'),
+        url('https://at.alicdn.com/t/font_883129_6f68qxr5td.ttf') format('truetype'),
+        url('https://at.alicdn.com/t/font_883129_6f68qxr5td.svg#iconfont') format('svg');
+}
+
+.f-icon {
+    font-family: 'iconfont';
+}
+
+.f-icon-1::before {
+    content: "\e60b";
+    font-size: 100px;
+}
+
+.f-icon-2::before {
+    content: "\e63d";
+    font-size: 50px;
+}
+
+.f-icon-3::before {
+    content: "\e61b";
+    font-size: 20px;
+}
+
+
 .content {
     width: 300px;
     height: 50px;
@@ -17,6 +47,7 @@
     background-position: -3px center;
     border-color: yellowgreen;
 }
+
 .icon2 {
     background-position: -63px center;
     border-color: goldenrod;
