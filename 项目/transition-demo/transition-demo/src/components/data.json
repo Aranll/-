@@ -1,0 +1,21 @@
+{
+  activityStatus: "1",
+  applyStatus: "1",
+  isConfirmApply: "1",
+  isNeedApply: "1",
+  isNeedFilter: "1",
+  orgganId: "81beedc9e17b401197edccc1725f06bb",
+  read: true,
+  readCount: 1,
+  signContent: null,
+  collectCount: 0,
+  sort: null,
+  status: "1",
+  userApplyStatus: "11",
+}
+
+
+{
+    buttonText: 'text',
+    status: '0',
+}
