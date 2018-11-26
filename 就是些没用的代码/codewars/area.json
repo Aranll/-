@@ -1,0 +1,113 @@
+data: [{
+    uid: '1063245743947456513',
+    parentId: '1063245493186797570',
+    areaName: 'A栋',
+    areaType: 'LD',
+    bottom: false,
+    children: [{
+            uid: '1063245743947456513',
+            parentId: '1063245493186797570',
+            areaName: 'A栋',
+            areaType: 'LD',
+            bottom: false,
+            children: [{
+                    uid: '1063245743947456513',
+                    parentId: '1063245493186797570',
+                    areaName: 'A栋',
+                    areaType: 'LD',
+                    bottom: false,
+                    children: [{
+                        uid: '1063245743947456513',
+                        parentId: '1063245493186797570',
+                        areaName: 'A栋',
+                        areaType: 'LD',
+                        bottom: false,
+                        children: [{
+                                uid: '1063245743947456513',
+                                parentId: '1063245493186797570',
+                                areaName: 'A栋',
+                                areaType: 'LD',
+                                bottom: true,
+                                children: [
+
+                                ]
+                            },
+                            {
+                                uid: '1063245743947456513',
+                                parentId: '1063245493186797570',
+                                areaName: 'A栋',
+                                areaType: 'LD',
+                                bottom: true,
+                                children: []
+                            },
+                            {
+                                uid: '1063245743947456513',
+                                parentId: '1063245493186797570',
+                                areaName: 'A栋',
+                                areaType: 'LD',
+                                bottom: true,
+                                children: []
+                            },
+                            {
+                                uid: '1063245743947456513',
+                                parentId: '1063245493186797570',
+                                areaName: 'A栋',
+                                areaType: 'LD',
+                                bottom: true,
+                                children: []
+                            }
+                        ]
+                    }]
+                },
+                {
+                    uid: '1063245743947456513',
+                    parentId: '1063245493186797570',
+                    areaName: 'A栋',
+                    areaType: 'LD',
+                    bottom: true,
+                    children: []
+                },
+                {
+                    uid: '1063245743947456513',
+                    parentId: '1063245493186797570',
+                    areaName: 'A栋',
+                    areaType: 'LD',
+                    bottom: true,
+                    children: []
+                },
+                {
+                    uid: '1063245743947456513',
+                    parentId: '1063245493186797570',
+                    areaName: 'A栋',
+                    areaType: 'LD',
+                    bottom: true,
+                    children: []
+                }
+            ]
+        },
+        {
+            uid: '1063245743947456513',
+            parentId: '1063245493186797570',
+            areaName: 'A栋',
+            areaType: 'LD',
+            bottom: true,
+            children: []
+        },
+        {
+            uid: '1063245743947456513',
+            parentId: '1063245493186797570',
+            areaName: 'A栋',
+            areaType: 'LD',
+            bottom: true,
+            children: []
+        },
+        {
+            uid: '1063245743947456513',
+            parentId: '1063245493186797570',
+            areaName: 'A栋',
+            areaType: 'LD',
+            bottom: true,
+            children: []
+        }
+    ]
+}]
