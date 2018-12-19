@@ -52,12 +52,13 @@ module.exports = {
     },
     plugins: [
         new UglifyPlugin(),
+        new webpack.HotModuleReplacementPlugin(),
         new HtmlWebpackPlugin({
             filename: 'index.html',
             template: 'src/assets/index.html'
         }),
         new webpack.DefinePlugin({
-            PRODUCTION: JSON.stringify(true) // const PRODUCTION = true
+            'process.env.NODE_ENV': JSON.stringify(porcess.env.NODE_ENV)
         }),
         new webpack.ProvidePlugin({
             identifier: ['module', 'default']
@@ -72,5 +73,8 @@ module.exports = {
             path.resolve(__dirname, 'node_modules'), // 指定当前目录下的 node_modules 优先查找
             'node_modules'
         ]
+    },
+    devServer: {
+        port: 8989
     }
 }
